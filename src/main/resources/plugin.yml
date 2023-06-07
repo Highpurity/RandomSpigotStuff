@@ -1,0 +1,4 @@
+name: Randomness
+version: '${project.version}'
+main: highpurity.randomness.Randomness
+api-version: 1.19
