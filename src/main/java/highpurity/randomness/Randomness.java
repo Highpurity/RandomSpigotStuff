@@ -10,7 +10,7 @@ public final class Randomness extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getServer().getPluginManager().registerEvents(new PlayerGravityEvent(), this);
-        getCommand("insanity").setExecutor(new insanity(), this);
+        this.getCommand("insanity").setExecutor(new insanity());
 
     }
 
