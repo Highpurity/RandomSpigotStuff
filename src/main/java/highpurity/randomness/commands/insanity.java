@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 
 public class insanity implements CommandExecutor {
 
-    public static boolean toggle;
+    public static boolean toggle = false;
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
