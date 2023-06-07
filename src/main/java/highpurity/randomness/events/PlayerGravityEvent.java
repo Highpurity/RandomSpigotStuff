@@ -12,6 +12,9 @@ public class PlayerGravityEvent implements Listener {
 
     @EventHandler
     public void onPlayerEntityDamage(EntityDamageByEntityEvent e){
+
+
+
         if(e.getDamager().getType() == EntityType.PLAYER){
             var entity = e.getEntity();
             entity.setGravity(false);
