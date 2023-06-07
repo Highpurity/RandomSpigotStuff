@@ -12,7 +12,7 @@ public class insanity implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
 
-        if(toggle = true){
+        if(toggle){
             toggle = false;
             sender.sendMessage(ChatColor.RED + "Disabed PlayerGravityEvent.java!");
         } else{
